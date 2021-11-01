@@ -35,7 +35,7 @@ comment_utteranc:
 
 # documents: https://valine.js.org/quickstart.html
 comment_valine:
-  enable: false
+  enable: true
   appId:
   appKey:
 

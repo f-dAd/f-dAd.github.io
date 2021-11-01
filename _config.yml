@@ -43,49 +43,35 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ""
-  wrap: true
-  hljs: false
+  wrap: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
   tab_replace: ""
-
+hljs:
+  enable: true #true to enable the plugin
+  line_number: frontend # add line_number in frontend or backend (not recommend, have bugs in special hexo version)
+  trim_indent: backend # trim the indent of code block to prettify output. backend or front-end (recommend)
+  copy_code: true # show copy code in caption.
+  label:
+    left: Code
+    right: ":"
+    copy:
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 10
+  per_page: 3
   order_by: -date
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: false
-    linkify: true
-    typographer: true
-    quotes: "“”‘’"
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-deflist
-  anchors:
-    level: 1
-    collisionSuffix: "v"
-    permalink: false
-    permalinkClass: header-anchor
-    permalinkSymbol: ""
-    permalinkBefore: false
 
 # Category & Tag
 default_category: uncategorized
