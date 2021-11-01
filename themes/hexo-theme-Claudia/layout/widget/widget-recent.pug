@@ -1,6 +1,6 @@
 include methods
 main.aside-card-container.recent-widget
-    h3= __('recent')
+    h3= __('最近')
     ul
         if page.posts.length > 0
             each post in page.posts.sort('date', -1).limit(6).toArray()

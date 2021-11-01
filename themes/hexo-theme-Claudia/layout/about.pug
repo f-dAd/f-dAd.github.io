@@ -7,11 +7,18 @@ block content
     main.about-page.is-flex.is-align-items-center.content.is-full-height
         .container.is-max-widescreen.px-2
             .columns.is-marginless
-                aside.column.is-4.is-flex.is-flex-direction-column.is-justify-content-center
-                    img.js-img-fadeIn(src= theme.about_pic)
+                aside.column.is-3.is-flex.is-flex-direction-column.is-justify-content-center
+                    img.js-img-fadeIn(src= theme.about_pic alt="user avatar")
+                    if theme.widgets.includes('tag') && site.tags.length > 0
+                        div(style="margin-top:50px;")
+                            include widget/widget-tag
+                    div(style="margin-top:10px;")
+                        a(title="github" target="\_blank" rel="noopener nofollow" href=`//github.com/${theme.social.github}`)
+                            i.iconfont.icon-github
                 section.column.is-8.is-flex.is-flex-direction-column.is-justify-content-center
-                    h2.about-title= __('about')
+                    h2.about-title= __('关于我')
                     article!= page.content
+
 block append script
     script.
         $claudia.fadeInImage()
