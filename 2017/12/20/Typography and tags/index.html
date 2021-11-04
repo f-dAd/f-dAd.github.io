@@ -1,48 +1,120 @@
-<!DOCTYPE html><html class="appearance-auto" lang="en"><head><meta charset="UTF-8"><title>Typography and tags</title><meta name="description" content="May the Force be with you"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- Google Analytics --><!-- End Google Analytics -->
-<!-- Baidu Analytics --><!-- End Baidu Analytics --><link rel="icon" href="/images/favicon.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="
+<!DOCTYPE html><html class="appearance-auto" lang="en"><head><meta charset="UTF-8"><title>Typography and tags</title><meta name="description" content="something for nothing"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- Google Analytics --><!-- End Google Analytics -->
+<!-- Baidu Analytics --><!-- End Baidu Analytics --><link rel="icon" href="/images/favicon.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/vs2015.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="
 Installation
 
 This post uses hexo-renderer-markdown-it plugin as markdown processor, so please install it to achieve the effect.
-installation123456npm un hexo-renderer-marked --savenpm i hexo-renderer-markdown-it --savenpm i markdown-it-emoji --savenpm i markdown-it-mark --savenpm i markdown-it-deflist --savenpm i markdown-it-container --save
-Configuratio.."><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">鱼鱼鹿鹿's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Typography and tags</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Installation"><span class="toc-text">Installation</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Configuration"><span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Usage"><span class="toc-text">Usage</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Headings"><span class="toc-text">Headings</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#h1-Heading-8"><span class="toc-text">h1 Heading 8-)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h2-Heading"><span class="toc-text">h2 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#h3-Heading"><span class="toc-text">h3 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#h4-Heading"><span class="toc-text">h4 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#h5-Heading"><span class="toc-text">h5 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#h6-Heading"><span class="toc-text">h6 Heading</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Horizontal-Rules"><span class="toc-text">Horizontal Rules</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Typographic-replacements"><span class="toc-text">Typographic replacements</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Emphasis"><span class="toc-text">Emphasis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Blockquotes"><span class="toc-text">Blockquotes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lists"><span class="toc-text">Lists</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Unordered"><span class="toc-text">Unordered</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ordered"><span class="toc-text">Ordered</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Start-numbering-with-offset"><span class="toc-text">Start numbering with offset:</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Code"><span class="toc-text">Code</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Indented-code"><span class="toc-text">Indented code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Block-code-%E2%80%9Cfences%E2%80%9D"><span class="toc-text">Block code “fences”</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tables"><span class="toc-text">Tables</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Right-aligned-columns"><span class="toc-text">Right aligned columns</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Links"><span class="toc-text">Links</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Images"><span class="toc-text">Images</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plugins"><span class="toc-text">Plugins</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Emojies"><span class="toc-text">Emojies</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Subscript-Superscript"><span class="toc-text">Subscript &#x2F; Superscript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ins"><span class="toc-text">&lt;ins&gt;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mark"><span class="toc-text">&lt;mark&gt;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Footnotes"><span class="toc-text">Footnotes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Definition-lists"><span class="toc-text">Definition lists</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Abbreviations"><span class="toc-text">Abbreviations</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-containers"><span class="toc-text">Custom containers</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-Built-in-Tags"><span class="toc-text">Hexo Built-in Tags</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote-with-author"><span class="toc-text">Blockquote with author</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote-for-twitter"><span class="toc-text">Blockquote for twitter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote-for-weblink"><span class="toc-text">Blockquote for weblink</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Pull-Quotes"><span class="toc-text">Pull Quotes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jsFiddle"><span class="toc-text">jsFiddle</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gist"><span class="toc-text">Gist</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#iFrame"><span class="toc-text">iFrame</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Link-to-open-in-new-tab"><span class="toc-text">Link to open in new tab</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Youtube"><span class="toc-text">Youtube</span></a></li></ol></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/typography"><i class="tag post-item-tag">typography</i></a><a href="/tags/hexo"><i class="tag post-item-tag">hexo</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">Typography and tags</h1><time class="has-text-grey" datetime="2017-12-20T05:51:07.000Z">2017-12-20</time><article class="mt-2 post-content"><p><img src="images/lake.png" alt="$cover"></p>
-<h1 id="Installation">Installation</h1>
+(`installation`)
+npm un hexo-renderer-marked --save
+npm i hexo-renderer-markdown-it --save
+npm i markdown-it-emoji --save
+npm i markdown-it-mark --save
+npm i markdown-it-deflist --save
+npm i markdown-it-container --save
+
+Configu.."><script src="//unpkg.com/valine/dist/Valine.min.js"></script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">f-dAd's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Typography and tags</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Installation</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Usage</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Headings"><span class="toc-text">Headings</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">h1 Heading 8-)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h2-Heading"><span class="toc-text">h2 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#h3-Heading"><span class="toc-text">h3 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#h4-Heading"><span class="toc-text">h4 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#h5-Heading"><span class="toc-text">h5 Heading</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#h6-Heading"><span class="toc-text">h6 Heading</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Horizontal-Rules"><span class="toc-text">Horizontal Rules</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Typographic-replacements"><span class="toc-text">Typographic replacements</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Emphasis"><span class="toc-text">Emphasis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Blockquotes"><span class="toc-text">Blockquotes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lists"><span class="toc-text">Lists</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Unordered"><span class="toc-text">Unordered</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ordered"><span class="toc-text">Ordered</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Start-numbering-with-offset"><span class="toc-text">Start numbering with offset:</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Code"><span class="toc-text">Code</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Indented-code"><span class="toc-text">Indented code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Block-code-%E2%80%9Cfences%E2%80%9D"><span class="toc-text">Block code “fences”</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tables"><span class="toc-text">Tables</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Right-aligned-columns"><span class="toc-text">Right aligned columns</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Links"><span class="toc-text">Links</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Images"><span class="toc-text">Images</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plugins"><span class="toc-text">Plugins</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Emojies"><span class="toc-text">Emojies</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Subscript-Superscript"><span class="toc-text">Subscript &#x2F; Superscript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ins"><span class="toc-text">&lt;ins&gt;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mark"><span class="toc-text">&lt;mark&gt;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Footnotes"><span class="toc-text">Footnotes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Definition-lists"><span class="toc-text">Definition lists</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Abbreviations"><span class="toc-text">Abbreviations</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-containers"><span class="toc-text">Custom containers</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-Built-in-Tags"><span class="toc-text">Hexo Built-in Tags</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote-with-author"><span class="toc-text">Blockquote with author</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote-for-twitter"><span class="toc-text">Blockquote for twitter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote-for-weblink"><span class="toc-text">Blockquote for weblink</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Pull-Quotes"><span class="toc-text">Pull Quotes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jsFiddle"><span class="toc-text">jsFiddle</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gist"><span class="toc-text">Gist</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#iFrame"><span class="toc-text">iFrame</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Link-to-open-in-new-tab"><span class="toc-text">Link to open in new tab</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Youtube"><span class="toc-text">Youtube</span></a></li></ol></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/typography"><i class="tag post-item-tag">typography</i></a><a href="/tags/hexo"><i class="tag post-item-tag">hexo</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">Typography and tags</h1><time class="has-text-grey" datetime="2017-12-20T05:51:07.000Z">2017-12-20</time><article class="mt-2 post-content"><p><img src="images/lake.png" alt="$cover"></p>
+<h1>Installation</h1>
 <hr>
 <p>This post uses <code>hexo-renderer-markdown-it</code> plugin as markdown processor, so please install it to achieve the effect.</p>
-<figure class="highlight bash"><figcaption><span>installation</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm un hexo-renderer-marked --save</span><br><span class="line">npm i hexo-renderer-markdown-it --save</span><br><span class="line">npm i markdown-it-emoji --save</span><br><span class="line">npm i markdown-it-mark --save</span><br><span class="line">npm i markdown-it-deflist --save</span><br><span class="line">npm i markdown-it-container --save</span><br></pre></td></tr></table></figure>
-<h1 id="Configuration">Configuration</h1>
+<p class="code-caption" data-lang="bash" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-title="installation"><span class="code-caption-label">(`installation`)</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-bash">npm un hexo-renderer-marked --save
+npm i hexo-renderer-markdown-it --save
+npm i markdown-it-emoji --save
+npm i markdown-it-mark --save
+npm i markdown-it-deflist --save
+npm i markdown-it-container --save
+</code></pre>
+<h1>Configuration</h1>
 <p>Add following to <code>_config.yml</code> of your site.</p>
-<figure class="highlight yml"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">render:</span></span><br><span class="line">    <span class="attr">html:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">xhtmlOut:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">breaks:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">linkify:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">typographer:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">quotes:</span> <span class="string">&#x27;“”‘’&#x27;</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-abbr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-footnote</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-ins</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-sub</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-sup</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-deflist</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">level:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">collisionSuffix:</span> <span class="string">&#x27;v&#x27;</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">permalinkClass:</span> <span class="string">header-anchor</span></span><br><span class="line">    <span class="attr">permalinkSymbol:</span> <span class="string">&quot; &quot;</span></span><br><span class="line">    <span class="attr">permalinkBefore:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h1 id="Usage">Usage</h1>
+<p class="code-caption" data-lang="yml" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-title="_config.yml"><span class="code-caption-label">(`_config.yml`)</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-yml">markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: false
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-deflist
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: false
+    permalinkClass: header-anchor
+    permalinkSymbol: &quot; &quot;
+    permalinkBefore: false
+</code></pre>
+<h1>Usage</h1>
 <hr>
 <h2 id="Headings">Headings</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># h1 Heading 8-)</span></span><br><span class="line"><span class="section">## h2 Heading</span></span><br><span class="line"><span class="section">### h3 Heading</span></span><br><span class="line"><span class="section">#### h4 Heading</span></span><br><span class="line"><span class="section">##### h5 Heading</span></span><br><span class="line"><span class="section">###### h6 Heading</span></span><br></pre></td></tr></table></figure>
-<h1 id="h1-Heading-8">h1 Heading 8-)</h1>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown"># h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+</code></pre>
+<h1>h1 Heading 8-)</h1>
 <h2 id="h2-Heading">h2 Heading</h2>
 <h3 id="h3-Heading">h3 Heading</h3>
 <h4 id="h4-Heading">h4 Heading</h4>
 <h5 id="h5-Heading">h5 Heading</h5>
 <h6 id="h6-Heading">h6 Heading</h6>
 <h2 id="Horizontal-Rules">Horizontal Rules</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">__<span class="emphasis">_</span></span></span><br><span class="line"><span class="emphasis"><span class="strong"></span></span></span><br><span class="line"><span class="emphasis"><span class="strong">---</span></span></span><br><span class="line"><span class="emphasis"><span class="strong"></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="strong">**<span class="emphasis">*</span></span></span></span></span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">___
+
+---
+
+***
+</code></pre>
 <hr>
 <hr>
 <hr>
 <h2 id="Typographic-replacements">Typographic replacements</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">(c) (C) (r) (R) (tm) (TM) (p) (P) +-</span><br><span class="line"></span><br><span class="line">test.. test... test..... test?..... test!....</span><br><span class="line"></span><br><span class="line">!!!!!! ???? ,,  -- ---</span><br><span class="line"></span><br><span class="line">&quot;Smartypants, double quotes&quot; and &#x27;single quotes&#x27;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+&quot;Smartypants, double quotes&quot; and 'single quotes'
+</code></pre>
 <p>© © ® ® ™ ™ § § ±</p>
 <p>test… test… test… test?.. test!..</p>
 <p>!!! ??? ,  – —</p>
 <p>“Smartypants, double quotes” and ‘single quotes’</p>
 <h2 id="Emphasis">Emphasis</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**This is bold text**</span></span><br><span class="line"></span><br><span class="line"><span class="strong">__This is bold text__</span></span><br><span class="line"></span><br><span class="line"><span class="emphasis">*This is italic text*</span></span><br><span class="line"></span><br><span class="line"><span class="emphasis">_This is italic text_</span></span><br><span class="line"></span><br><span class="line">~~Strikethrough~~</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+</code></pre>
 <p><strong>This is bold text</strong></p>
 <p><strong>This is bold text</strong></p>
 <p><em>This is italic text</em></p>
 <p><em>This is italic text</em></p>
 <p><s>Strikethrough</s></p>
 <h2 id="Blockquotes">Blockquotes</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; Blockquotes can also be nested...</span></span><br><span class="line">&gt;&gt; ...by using additional greater-than signs right next to each other...</span><br><span class="line"><span class="quote">&gt; &gt; &gt; ...or with spaces between arrows.</span></span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">&gt; Blockquotes can also be nested...
+&gt;&gt; ...by using additional greater-than signs right next to each other...
+&gt; &gt; &gt; ...or with spaces between arrows.
+</code></pre>
 <blockquote>
 <p>Blockquotes can also be nested…</p>
 <blockquote>
@@ -54,7 +126,15 @@ Configuratio.."><meta name="generator" content="Hexo 5.4.0"><link rel="alternate
 </blockquote>
 <h2 id="Lists">Lists</h2>
 <h3 id="Unordered">Unordered</h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+</span> Create a list by starting a line with <span class="code">`+`</span>, <span class="code">`-`</span>, or <span class="code">`*`</span></span><br><span class="line"><span class="bullet">+</span> Sub-lists are made by indenting 2 spaces:</span><br><span class="line"><span class="bullet">  -</span> Marker character change forces new list start:</span><br><span class="line"><span class="bullet">    *</span> Ac tristique libero volutpat at</span><br><span class="line"><span class="bullet">    +</span> Facilisis in pretium nisl aliquet</span><br><span class="line"><span class="bullet">    -</span> Nulla volutpat aliquam velit</span><br><span class="line"><span class="bullet">+</span> Very easy!</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">+ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+</code></pre>
 <ul>
 <li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
 <li>Sub-lists are made by indenting 2 spaces:
@@ -75,44 +155,93 @@ Configuratio.."><meta name="generator" content="Hexo 5.4.0"><link rel="alternate
 <li>Very easy!</li>
 </ul>
 <h3 id="Ordered">Ordered</h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> Lorem ipsum dolor sit amet</span><br><span class="line"><span class="bullet">  1.</span> Indented list</span><br><span class="line"><span class="bullet">    1.</span> Another level</span><br><span class="line"><span class="bullet">  2.</span> Indent</span><br><span class="line"><span class="bullet">2.</span> Consectetur adipiscing elit</span><br><span class="line"><span class="bullet">3.</span> Integer molestie lorem at massa</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">1. Lorem ipsum dolor sit amet
+  1. Indented list
+    1. Another level
+  2. Indent
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+</code></pre>
 <ol>
 <li>Lorem ipsum dolor sit amet</li>
 <li>Indented list
-1. Another level</li>
+<ol>
+<li>Another level</li>
+</ol>
+</li>
 <li>Indent</li>
 <li>Consectetur adipiscing elit</li>
 <li>Integer molestie lorem at massa</li>
 </ol>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> You can use sequential numbers...</span><br><span class="line"><span class="bullet">1.</span> ...or keep all the numbers as <span class="code">`1.`</span></span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+</code></pre>
 <ol>
 <li>You can use sequential numbers…</li>
 <li>…or keep all the numbers as <code>1.</code></li>
 </ol>
 <h4 id="Start-numbering-with-offset">Start numbering with offset:</h4>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">57.</span> foo</span><br><span class="line"><span class="bullet">1.</span> bar</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">57. foo
+1. bar
+</code></pre>
 <ol start="57">
 <li>foo</li>
 <li>bar</li>
 </ol>
 <h2 id="Code">Code</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Inline <span class="code">`code`</span></span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Inline `code`
+</code></pre>
 <p>Inline <code>code</code></p>
 <h3 id="Indented-code">Indented code</h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// Some comments</span><br><span class="line"><span class="code">    line 1 of code</span></span><br><span class="line"><span class="code">    line 2 of code</span></span><br><span class="line"><span class="code">    line 3 of code</span></span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">// Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+</code></pre>
 <pre><code>// Some comments
 line 1 of code
 line 2 of code
 line 3 of code
 </code></pre>
 <h3 id="Block-code-“fences”">Block code “fences”</h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">```</span></span><br><span class="line"><span class="code">Sample text here...</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sample text here...</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">```
+Sample text here...
+```
+</code></pre>
+<pre><code>Sample text here...
+&lt;p class=&quot;code-caption&quot; data-lang=&quot;&quot; data-line_number=&quot;frontend&quot; data-trim_indent=&quot;backend&quot; data-label_position=&quot;outer&quot; data-labels_left=&quot;Code&quot; data-labels_right=&quot;:&quot; data-labels_copy=&quot;&quot;&gt;&lt;span class=&quot;code-caption-label&quot;&gt;&lt;/span&gt;&lt;a class=&quot;code-caption-copy&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+</code></pre>
 <p>Syntax highlighting</p>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">``` js sample.js</span></span><br><span class="line"><span class="code">var foo = function (bar) &#123;</span></span><br><span class="line"><span class="code">  return bar++;</span></span><br><span class="line"><span class="code">&#125;;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">console.log(foo(5));</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>sample.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> foo = <span class="function"><span class="keyword">function</span> (<span class="params">bar</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> bar++;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(foo(<span class="number">5</span>));</span><br></pre></td></tr></table></figure>
+<pre><code class="language-markdown">``` js sample.js
+var foo = function (bar) &#123;
+  return bar++;
+&#125;;
+
+console.log(foo(5));
+```
+</code></pre>
+<p class="code-caption" data-lang="js" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-title="sample.js"><span class="code-caption-label">(`sample.js`)</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-js">var foo = function (bar) &#123;
+  return bar++;
+&#125;;
+
+console.log(foo(5));
+</code></pre>
 <h2 id="Tables">Tables</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| Option | Description |Description | Description | Description | Description |</span><br><span class="line">| ------ | ----------- |----------- | ----------- | ----------- | ----------- |</span><br><span class="line">| data   | path to data files to supply the data that will be passed into templates. |</span><br><span class="line">| engine | engine to be used for processing templates. Handlebars is the default. |</span><br><span class="line">| ext    | extension to be used for dest files. |</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">| Option | Description |Description | Description | Description | Description |
+| ------ | ----------- |----------- | ----------- | ----------- | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+</code></pre>
 <table>
 <thead>
 <tr>
@@ -152,7 +281,13 @@ line 3 of code
 </tbody>
 </table>
 <h3 id="Right-aligned-columns">Right aligned columns</h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| Option | Description |</span><br><span class="line">| ------:| -----------:|</span><br><span class="line">| data   | path to data files to supply the data that will be passed into templates. |</span><br><span class="line">| engine | engine to be used for processing templates. Handlebars is the default. |</span><br><span class="line">| ext    | extension to be used for dest files. |</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+</code></pre>
 <table>
 <thead>
 <tr>
@@ -176,119 +311,196 @@ line 3 of code
 </tbody>
 </table>
 <h2 id="Links">Links</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">link text</span>](<span class="link">http://dev.nodeca.com</span>)</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">[link text](http://dev.nodeca.com)
+</code></pre>
 <p><a target="_blank" rel="noopener" href="http://dev.nodeca.com">link text</a></p>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">link with title</span>](<span class="link">http://nodeca.github.io/pica/demo/ &quot;title text!&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">[link with title](http://nodeca.github.io/pica/demo/ &quot;title text!&quot;)
+</code></pre>
 <p><a target="_blank" rel="noopener" href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a></p>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Autoconverted link https://github.com/nodeca/pica (enabled linkify)</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Autoconverted link https://github.com/nodeca/pica (enabled linkify)
+</code></pre>
 <p>Autoconverted link <a target="_blank" rel="noopener" href="https://github.com/nodeca/pica">https://github.com/nodeca/pica</a> (enabled linkify)</p>
 <h2 id="Images">Images</h2>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Minion</span>](<span class="link">https://octodex.github.com/images/minion.png</span>)</span><br><span class="line">![<span class="string">Stormtroopocat</span>](<span class="link">https://octodex.github.com/images/stormtroopocat.jpg &quot;The Stormtroopocat&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p><img src="https://octodex.github.com/images/minion.png" alt="Minion">
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg &quot;The Stormtroopocat&quot;)
+</code></pre>
+<p><img src="https://octodex.github.com/images/minion.png" alt="Minion"><br>
 <img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat"></p>
 <p>Like links, Images also have a footnote style syntax</p>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt text</span>][<span class="symbol">id</span>]</span><br><span class="line"></span><br><span class="line">With a reference later in the document defining the URL location:</span><br><span class="line"></span><br><span class="line">[<span class="symbol">id</span>]: <span class="link">https://octodex.github.com/images/dojocat.jpg  &quot;The Dojocat&quot;</span></span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  &quot;The Dojocat&quot;
+</code></pre>
 <p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat"></p>
 <p>With a reference later in the document defining the URL location:</p>
 <h2 id="Plugins">Plugins</h2>
-<p>The killer feature of <code>markdown-it</code> is very effective support of
+<p>The killer feature of <code>markdown-it</code> is very effective support of<br>
 <a target="_blank" rel="noopener" href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>. The sample <a href="#configuration">configuration snippet</a></p>
 <h3 id="Emojies"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</span><br><span class="line"></span><br><span class="line">Shortcuts (emoticons): :-) :-( 8-) ;)</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+
+Shortcuts (emoticons): :-) :-( 8-) ;)
+</code></pre>
 <p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>
 <p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
 <h3 id="Subscript-Superscript"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-sup">Superscript</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Superscript: 19^th^</span><br><span class="line"></span><br><span class="line">Subscript: H~2~O</span><br></pre></td></tr></table></figure>
-<p>Superscript: 19<sup>th</sup></p>
-<p>Subscript: H<sub>2</sub>O</p>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Superscript: 19^th^
+
+Subscript: H~2~O
+</code></pre>
+<p>Superscript: 19^th^</p>
+<p>Subscript: H~2~O</p>
 <h3 id="ins"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">++Inserted text++</span><br></pre></td></tr></table></figure>
-<p><ins>Inserted text</ins></p>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">++Inserted text++
+</code></pre>
+<p>++Inserted text++</p>
 <h3 id="mark"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">==Marked text==</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">==Marked text==
+</code></pre>
 <p>==Marked text==</p>
 <h3 id="Footnotes"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Footnote 1 link[^first].</span><br><span class="line"></span><br><span class="line">Footnote 2 link[^second].</span><br><span class="line"></span><br><span class="line">Inline footnote^[Text of inline footnote] definition.</span><br><span class="line"></span><br><span class="line">Duplicated footnote reference[^second].</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^first</span>]: <span class="link">Footnote **can have markup**</span></span><br><span class="line"></span><br><span class="line"><span class="code">    and multiple paragraphs.</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">[<span class="symbol">^second</span>]: <span class="link">Footnote text.</span></span><br></pre></td></tr></table></figure>
-<p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
-<p>Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
-<p>Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.</p>
-<p>Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup>.</p>
-<h3 id="Definition-lists"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Term 1</span><br><span class="line">:   Definition 1</span><br><span class="line">with lazy continuation.</span><br></pre></td></tr></table></figure>
-<dl>
-<dt>Term 1</dt>
-<dd>Definition 1
-with lazy continuation.</dd>
-</dl>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Term 2 with <span class="emphasis">*inline markup*</span></span><br><span class="line">:   Definition 2</span><br><span class="line"></span><br><span class="line"><span class="code">        &#123; some code, part of Definition 2 &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    Third paragraph of definition 2.</span></span><br></pre></td></tr></table></figure>
-<dl>
-<dt>Term 2 with <em>inline markup</em></dt>
-<dd>
-<p>Definition 2</p>
-<pre><code>  &#123; some code, part of Definition 2 &#125;
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
 </code></pre>
-<p>Third paragraph of definition 2.</p>
-</dd>
-</dl>
+<p>Footnote 1 link[^first].</p>
+<p>Footnote 2 link[^second].</p>
+<p>Inline footnote^[Text of inline footnote] definition.</p>
+<p>Duplicated footnote reference[^second].</p>
+<p>[^first]: Footnote <strong>can have markup</strong></p>
+<pre><code>and multiple paragraphs.
+</code></pre>
+<p>[^second]: Footnote text.</p>
+<h3 id="Definition-lists"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a></h3>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Term 1
+:   Definition 1
+with lazy continuation.
+</code></pre>
+<p>Term 1<br>
+:   Definition 1<br>
+with lazy continuation.</p>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Term 2 with *inline markup*
+:   Definition 2
+
+        &#123; some code, part of Definition 2 &#125;
+
+    Third paragraph of definition 2.
+</code></pre>
+<p>Term 2 with <em>inline markup</em><br>
+:   Definition 2</p>
+<pre><code>    &#123; some code, part of Definition 2 &#125;
+
+Third paragraph of definition 2.
+</code></pre>
 <p><em>Compact style:</em></p>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Term 1</span><br><span class="line">  ~ Definition 1</span><br><span class="line"></span><br><span class="line">Term 2</span><br><span class="line">  ~ Definition 2a</span><br><span class="line">  ~ Definition 2b</span><br></pre></td></tr></table></figure>
-<dl>
-<dt>Term 1</dt>
-<dd>Definition 1</dd>
-<dt>Term 2</dt>
-<dd>Definition 2a</dd>
-<dd>Definition 2b</dd>
-</dl>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+</code></pre>
+<p>Term 1<br>
+~ Definition 1</p>
+<p>Term 2<br>
+~ Definition 2a<br>
+~ Definition 2b</p>
 <h3 id="Abbreviations"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a></h3>
-<figure class="highlight markdown"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">This is HTML abbreviation example.</span><br><span class="line"></span><br><span class="line">It converts &quot;HTML&quot;, but keep intact partial entries like &quot;xxxHTMLyyy&quot; and so on.</span><br><span class="line"></span><br><span class="line"><span class="emphasis">*[HTML]: Hyper Text Markup Language</span></span><br></pre></td></tr></table></figure>
-<p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p>
-<p>It converts “<abbr title="Hyper Text Markup Language">HTML</abbr>”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p>
+<p class="code-caption" data-lang="markdown" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-markdown">This is HTML abbreviation example.
+
+It converts &quot;HTML&quot;, but keep intact partial entries like &quot;xxxHTMLyyy&quot; and so on.
+
+*[HTML]: Hyper Text Markup Language
+</code></pre>
+<p>This is HTML abbreviation example.</p>
+<p>It converts “HTML”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p>
+<p>*[HTML]: Hyper Text Markup Language</p>
 <h3 id="Custom-containers"><a target="_blank" rel="noopener" href="https://github.com/markdown-it/markdown-it-container">Custom containers</a></h3>
-<p>::: warning
-<em>here be dragons</em>
+<p>::: warning<br>
+<em>here be dragons</em><br>
 :::</p>
 <h2 id="Hexo-Built-in-Tags">Hexo Built-in Tags</h2>
 <h3 id="Blockquote-with-author">Blockquote with author</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote David Levithan, Wide Awake %&#125;</span><br><span class="line">Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% blockquote David Levithan, Wide Awake %&#125;
+Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
+&#123;% endblockquote %&#125;
+</code></pre>
 <blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
 <footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
 <h3 id="Blockquote-for-twitter">Blockquote for twitter</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote @DevDocs https://twitter.com/devdocs/status/356095192085962752 %&#125;</span><br><span class="line">NEW: DevDocs now comes with syntax highlighting. http://devdocs.io</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% blockquote @DevDocs https://twitter.com/devdocs/status/356095192085962752 %&#125;
+NEW: DevDocs now comes with syntax highlighting. http://devdocs.io
+&#123;% endblockquote %&#125;
+</code></pre>
 <blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a target="_blank" rel="noopener" href="http://devdocs.io">http://devdocs.io</a></p>
 <footer><strong>@DevDocs</strong><cite><a target="_blank" rel="noopener" href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
 <h3 id="Blockquote-for-weblink">Blockquote for weblink</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %&#125;</span><br><span class="line">Every interaction is both precious and an opportunity to delight.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %&#125;
+Every interaction is both precious and an opportunity to delight.
+&#123;% endblockquote %&#125;
+</code></pre>
 <blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
 <footer><strong>Seth Godin</strong><cite><a target="_blank" rel="noopener" href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">Welcome to Island Marketing</a></cite></footer></blockquote>
 <h3 id="Pull-Quotes">Pull Quotes</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pullquote %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endpullquote %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% pullquote %&#125;
+content
+&#123;% endpullquote %&#125;
+</code></pre>
 <blockquote class="pullquote"><p>content</p>
 </blockquote>
 <h3 id="jsFiddle">jsFiddle</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% jsfiddle o2gxgz9r default light %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% jsfiddle o2gxgz9r default light %&#125;
+</code></pre>
 <iframe scrolling="no" width="100%" height="300" src="https://jsfiddle.net/o2gxgz9r/embedded/js,resources,html,css,result/light" frameborder="0" loading="lazy" allowfullscreen></iframe>
 <h3 id="Gist">Gist</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% gist b6365e79be6052e7531e7ba6ea8caf23 &#x27;Sample gist&#x27; %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% gist b6365e79be6052e7531e7ba6ea8caf23 'Sample gist' %&#125;
+</code></pre>
 <script src="//gist.github.com/b6365e79be6052e7531e7ba6ea8caf23.js?file=Sample gist"></script>
 <h3 id="iFrame">iFrame</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% iframe https://www.bing.com %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% iframe https://www.bing.com %&#125;
+</code></pre>
 <iframe src="https://www.bing.com/" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe>
 <h3 id="Link-to-open-in-new-tab">Link to open in new tab</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% link Google https://www.google.com default Google %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% link Google https://www.google.com default Google %&#125;
+</code></pre>
 <a href="https://www.google.com/" title="default Google" target="">Google</a>
 <h3 id="Youtube">Youtube</h3>
-<figure class="highlight plaintext"><figcaption><span>source code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% youtube l_lblj8Cq0o %&#125;</span><br></pre></td></tr></table></figure>
+<p class="code-caption" data-lang="swig" data-line_number="frontend" data-trim_indent="backend" data-label_position="outer" data-labels_left="Code" data-labels_right=":" data-labels_copy="" data-hide="false" data-href="code"><span class="code-caption-label">([source](code))</span><a class="code-caption-copy"></a></p>
+<pre><code class="language-swig">&#123;% youtube l_lblj8Cq0o %&#125;
+</code></pre>
 <div class="video-container"><iframe src="https://www.youtube.com/embed/l_lblj8Cq0o" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Footnote <strong>can have markup</strong></p>
-<p>and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><em></em><a class="button is-default" href="/2013/12/26/images/" title="Images"><span class="has-text-weight-semibold">Next: Images</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="Haojen/Claudia-theme-blog" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com//"><i class="iconfont icon-twitter"></i></a><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/f-dAd"><i class="iconfont icon-github"></i></a><!-- Ins--><a title="instagram" target="_blank" rel="noopener nofollow" href="//www.instagram.com//"><i class="iconfont icon-ins"></i></a><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/atom.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com//"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> 鱼鱼鹿鹿 2021</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/2021/11/01/github%20hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="Github 加 hexo 搭建自己的博客"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">Previous: Github 加 hexo 搭建自己的博客</span></a><a class="button is-default" href="/2013/12/26/images/" title="Images video"><span class="has-text-weight-semibold">Next: Images video</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="f-dAd/git@github.com:f-dAd/f-dAd.github.io.git" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article><article class="mt-6 comment-container" id="vcomments"></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com//"><i class="iconfont icon-twitter"></i></a><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/f-dAd"><i class="iconfont icon-github"></i></a><!-- Ins--><a title="instagram" target="_blank" rel="noopener nofollow" href="//www.instagram.com//"><i class="iconfont icon-ins"></i></a><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/atom.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com//"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> f-dAd 2021</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span>ssooo</span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>

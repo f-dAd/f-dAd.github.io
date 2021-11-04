@@ -1,9 +1,18 @@
 .about-page {
   height: 100%; }
   .about-page aside img {
-    width: 100%;
-    height: 100%;
-    padding: 5px;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border: 5px solid var(--avatar-border-color);
     object-fit: cover; }
+  .about-page aside i {
+    width: 20px;
+    margin: 5px auto;
+    font-size: 30px; }
   .about-page .about-title {
     font-weight: normal; }
