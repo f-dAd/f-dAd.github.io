@@ -1,6 +1,12 @@
 title: Github 加 hexo 搭建自己的博客
-date: 2013-12-24 17:49:32
-tags:
+date: 2021-11-01 19:49:32
+tags: 
+  - github
+  - hexo
+
+categories:
+
+- notes
 
 ---
 
@@ -23,7 +29,7 @@ npm install hexo-cli -g
 npm install hexo-deployer-git --savecode snippet
 ```
 
-### 搭建博客
+## 搭建博客
 
 ```bash
 创建文件夹，并进去
@@ -82,7 +88,7 @@ ssh -T git@blog 测试连接
 
 将 Hexo 与 GitHub 关联起来，打开站点的配置文件\_config.yml，翻到最后修改为：
 
-```yml
+```bash
 deploy:
 	type: git
 	repo: git@github.com: ***/chenQD-blog.git
@@ -120,7 +126,7 @@ FATAL YAMLException: bad indentation of a mapping entry (110:23)
 -----------------------------^
 ```
 
-### 博客样式
+## 博客样式
 
 可以去 hexo 官网去挑选样式，下面几个是我很喜欢的样式
 
@@ -132,7 +138,7 @@ FATAL YAMLException: bad indentation of a mapping entry (110:23)
 
 hexo generate -deploy 部署
 
-### 备份博客源文件
+## 备份博客源文件
 
 有时候我们想换一台电脑继续写博客，这时候就可以将博客目录下的所有源文件都上传到 github 上面。
 
@@ -145,7 +151,7 @@ git commit -m "xxx"
 git push origin hexo  提交就行了
 ```
 
-### 代码高亮
+## 代码高亮
 
 Hexo 本身就自带高亮功能，只不过不完美。话虽如此，这个自带的高亮功能在我所用的[主题](https://github.com/chpwang/hexo-theme-pln)里也比市场上的其他插件（例如 [Hexo-Prism-Plugin](https://github.com/ele828/hexo-prism-plugin) ，[hexo-filter-highlight](https://github.com/Jamling/hexo-filter-highlight) 和 [Prettify](https://github.com/google/code-prettify) 这三个坑货）要好用得多。这里说的好用，主要体现在最终渲染出来的排版效果上的美观、设置上的便捷，且不会引入过多 Markdown 和 Latex 之间语法的冲突。
 
@@ -155,15 +161,15 @@ Hexo 本身就自带高亮功能，只不过不完美。话虽如此，这个自
 
 ### 实现
 
-#### 步骤一：
+##### 步骤一
 
 前往 Highlight.js 的[官方下载页面](https://highlightjs.org/download/)，在 **Custom package** 的部分勾选你希望获得高亮支持的语言（想一步到位就全选），勾选完毕后点击 Download 按钮下载，得到 `highlight.zip` 压缩包；
 
-#### 步骤二：
+##### 步骤二
 
 解压刚刚的 `highlight.zip` 压缩包，得到 `highlight.pack.js` 文件和 `styles`文件夹（该文件夹中包含了各种[显示风格](https://highlightjs.org/static/demo/)的 CSS 文件）。接着，将 `highlight.pack.js` 文件移动到 `themes/hexo-theme-Claudia/source/js/` 目录下，而 `styles` 文件夹（包括里面的所有 CSS 文件）则移动到 `themes/hexo-theme-Claudia/source/style/themes` 目录下；
 
-#### 步骤三：
+##### 步骤三
 
 修改根目录下 `_config.yml` 文件中 highlight 部分的设置（主要目的是关闭它，其他设置只是顺便说明一下）：
 
@@ -176,7 +182,7 @@ highlight:
   wrap: false
 hljs:
   enable: true #true to enable the plugin
-  line_number: frontend # add line_number in frontend or backend (not recommend, have bugs in special hexo version)  没生效
+  line_number: frontend # 在前面加行号 in frontend or backend (不推荐，有bug）
   trim_indent: backend # trim the indent of code block to prettify output. backend or front-end (recommend)
   copy_code: true # show copy code in caption.
   label:
