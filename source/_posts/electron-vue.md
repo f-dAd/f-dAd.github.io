@@ -1,6 +1,16 @@
 # 迁移指南
 
+### electron-vue
 
+[electron-vue](https://link.segmentfault.com/?enc=3I0pzpx4kRStAZ1pO62wmQ%3D%3D.7jGEAOdounF8o6Iv5Lwx%2FL17CQzCZie0ZeTtXpxSLo9sWtFknA7%2BrfclHmmMUavu) 类似于 Vue 脚手架，只需要在规定的文件夹里写代码就行，使用中的问题：
+
+- 感觉脚手架作者不怎么维护。
+
+- Vue 和其他依赖比较旧，直接改版本出不出问题不好说。
+
+- 如果在现有的 Vue 项目中引入 `Electron`，还得来回拷贝，报错改错。
+
+  
 
 1. 使用 `vue init simulatedgreg/electron-vue my-project` 生成一个崭新的 electron-vue 项目
 2. 将当前项目 `src` 内的文件复制到新项目的 `src` 目录中
@@ -57,7 +67,7 @@ require('./index')
 
 
 
-问题三，配置vue prettier和eslint冲突
+### 问题三 配置vue prettier和eslint冲突
 
 .eslintrc.js添加
 
@@ -69,4 +79,18 @@ require('./index')
     //末尾不添加逗号，这里没生效可以直接去prettier插件里配置无
     trailingComma: 'none',
 ```
+
+
+
+
+
+## 新版方案
+
+### vue-cli-plugin-electron-builder
+
+[vue-cli-plugin-electron-builder](https://link.segmentfault.com/?enc=PEsFAhdtcl9ke5l2H%2F5mZw%3D%3D.zx6m%2B7O87XJ0%2BouUURIX8wSGyn6t2RTrkp4XKEG48S3x%2FLF8vNWXmq9jSSIaONHjQSjddMjgu37c9ly2SHgL6A%3D%3D) 相对于 `electron-vue` 灵活了许多，更有在 Vue 项目中集成 `Electron` 的感觉，因此这篇博客主要说明 `vue-cli-plugin-electron-builder` 的使用。这里列出几个个人认为的优点：
+
+- 目录结构基本按照 Vue 脚手架的结构。
+- 非侵入式，依赖版本的管理与 一般的 Vue 应用管理相同。
+- 以 `Vue CLI` 插件的形式安装，命令统一使用 `vue-cli-service` ，[Vue CLI 插件](https://link.segmentfault.com/?enc=a2DxEnOmD%2F0%2BtbvCu9hPhg%3D%3D.jJMyN81EfJ%2BAUds%2BPl7V5TxpTY0WFMOOiSsEIkUCHFRn1%2B%2BvWOpUzo0NVMdpVxwwB2u6YKq34JJ0RmbU%2B1%2BKklhhqUeFUdNijnvp31yY094%3D)。
 
